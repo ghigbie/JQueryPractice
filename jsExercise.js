@@ -1,4 +1,9 @@
 //created in command line
+if(jQuery){
+	alert("jQuery Loaded!");	
+	}else{
+		alert("No jQuery : (");
+}
 
 $("div").css("background", "#7631b7");
 $(".highlight").css("width", "200px");
