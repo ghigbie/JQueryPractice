@@ -24,3 +24,7 @@ var styles = {
 
 $("#special").css(styles);
 
+$("h1").css("color", "yellow"); //this line is more powerful and we can do a lot more with it than with a single selector
+document.querySelector("h1").style.color = "orange";
+
+
