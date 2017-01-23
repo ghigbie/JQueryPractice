@@ -15,3 +15,12 @@ $("#adorable");
 
 //.css - a nice method = $("some selector").css(property, value);
 
+$("#special").css("border", "2px solid red");
+
+var styles = {
+	backgroundColor: "pink",
+	fontWeight: "bold"
+};
+
+$("#special").css(styles);
+
