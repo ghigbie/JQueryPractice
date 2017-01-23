@@ -28,3 +28,10 @@ $("h1").css("color", "yellow"); //this line is more powerful and we can do a lot
 document.querySelector("h1").style.color = "orange";
 
 
+var styles = {
+	color: "red",
+	background: "pink",
+	border: "2px solid purple"
+};
+
+$("h2").css(styles);
