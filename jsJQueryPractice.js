@@ -22,6 +22,7 @@ var styles = {
 	fontWeight: "bold"
 };
 
+$("p").css("color", "#ffff23")
 $("#special").css(styles);
 
 $("h1").css("color", "yellow"); //this line is more powerful and we can do a lot more with it than with a single selector
@@ -35,3 +36,11 @@ var styles = {
 };
 
 $("h2").css(styles);
+$("body").css("background", "#232323");
+$("li").css("color", "#ffffff");
+$("a").css("font-size", "40px");
+$("li").css({             //object is added in place here
+	fontSize: "10px", //in jQuery we are using camel case instead of the same dashes that we would use in css
+	border: "2px dashed purple",
+	background: "rgba(89, 200, 20, 0.5)"
+})
