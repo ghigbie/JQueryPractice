@@ -42,3 +42,16 @@ $("h1").addClass("correct");
 $("p").addClass("wrong");
 $("li").first().addClass("done");
 $("li").toggleClass("done");
+
+$("button").click(function(){
+	var text = $(this).text(); //this will ge the text of the button that was clicked
+	alert(`You jerk! You clicked ${text}`);
+	$(this).css("background", "steelblue"); //we need to use thejQuery version of this
+});
+$("#submit").click(function(){
+	alert("you clicked the submit button");
+	$("h1").css("background", "pink");
+});
+$("h1").click(function(){
+	alert("you clicked the h1!!!");
+});
