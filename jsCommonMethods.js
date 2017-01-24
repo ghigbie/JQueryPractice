@@ -15,7 +15,7 @@ $("li").html("<a href='http:\/\/www.google.com'>CLICK ME TO GO TO GOOGLE</a>");/
 //.attr() - used t retrieve the value of an attribute for matched elements
 $("img").css("width", "200px");
 $("img").attr("src", "https://pbs.twimg.com/profile_images/534840446174781442/MVt_YYKT.jpeg");
-$("img").css("width", "500px");
+$("img").css("width", "200px");
 
 var img = document.querySelector("img");
 img.addEventListener("click", function(){
@@ -28,3 +28,9 @@ $("input").attr("type", "color");
 $("input").attr("type", "checkbox");
 $("input").attr("type", "text");
 
+$("img:first-of-type").attr("src", "http://pixel.nymag.com/imgs/daily/intelligencer/2016/08/18/18-honey-badger-teeth.w710.h473.2x.jpg");
+$("img").last().attr("src", "http://pixel.nymag.com/imgs/daily/intelligencer/2016/08/18/18-honey-badger-teeth.w710.h473.2x.jpg");
+$("img").attr("src", "http://cdn3-www.dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/puppy-2.jpg");
+
+//val() - extracts the value of an input
+$("input").val("Ka-BOOM!!!"); //we could use this to clear the value of an item
