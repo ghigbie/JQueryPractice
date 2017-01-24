@@ -79,12 +79,24 @@ $("#honeyBadger2").on("dblclick", function(){
 	alert("You double clicked the honey badger!");
 });
 
-$("#honeyBadger3").on("over", function(){
+$("#honeyBadger3").on("mouseenter", function(){ //this is hover over an object
 	alert("Honey badger don't care. Honey Badger don't give a blank!");
 });
 
 $("h1").on("click", function(){
 	$(this).css("color", "purple"); //the special jQuery sytax for "this"
+});
+$("input").on("keypress", function(){
+	console.log("This was a keypress called!!! Boo-ya!");
+});
+
+$("button").on("mouseenter", function(){ //this is the mouse over effect
+	console.log("I see a mouse!");
+	$(this).css("font-weight", "bold");
+});
+$("button").on("mouseleave", function(){
+	console.log("The mouse ran away");
+	$(this).css("font-weight", "normal");
 });
 
 
