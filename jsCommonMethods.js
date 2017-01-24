@@ -11,3 +11,16 @@ $("li").text("My cogi is is awesome!"); //this would require a loop in js
 $("h1").html(); //this is the same as inner html
 $("ul").html("<li>I hacked your UL</li><li>My corgi is more awesome than yours</li>");
 $("li").html("<a href='http:\/\/www.google.com'>CLICK ME TO GO TO GOOGLE</a>");//
+
+//.attr() - used t retrieve the value of an attribute for matched elements
+$("img").css("width", "200px");
+$("img").attr("src", "https://pbs.twimg.com/profile_images/534840446174781442/MVt_YYKT.jpeg");
+$("img").css("width", "500px");
+
+var img = document.querySelector("img");
+img.addEventListener("click", function(){
+	$("img").attr("src", "http://pixel.nymag.com/imgs/daily/intelligencer/2016/08/18/18-honey-badger-teeth.w710.h473.2x.jpg");
+});
+
+$("body").css("background", "grey");
+
