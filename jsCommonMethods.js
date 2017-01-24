@@ -61,7 +61,7 @@ $("h1").click(function(){
 $("input").keypress(function(){
 	console.log("you pressed a key");
 });
-$("input").kepress(functon(event){
+$("input").keypress(function(event){
 	console.log(event);
 });
 
