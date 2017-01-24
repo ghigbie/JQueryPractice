@@ -55,3 +55,16 @@ $("#submit").click(function(){
 $("h1").click(function(){
 	alert("you clicked the h1!!!");
 });
+//keypress() - is used to get input from a form - it between a key down and key up
+//we select something and then chain on key press()
+
+$("input").keypres(function{
+	console.log("you pressed a key");
+});
+
+
+
+
+
+
+
