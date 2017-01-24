@@ -5,5 +5,10 @@ div{
 	background: teal;
 	float: left;
 	margin: 20px;
-	
+
+}
+
+p{
+	background: orange;
+	display: none;
 }
