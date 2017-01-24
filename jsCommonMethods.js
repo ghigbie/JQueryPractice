@@ -24,3 +24,7 @@ img.addEventListener("click", function(){
 
 $("body").css("background", "grey");
 
+$("input").attr("type", "color");
+$("input").attr("type", "checkbox");
+$("input").attr("type", "text");
+
