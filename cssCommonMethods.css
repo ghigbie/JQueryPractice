@@ -1,2 +1,14 @@
-/*created in command line*/
+ /*created in command line*/
+.correct{
+	color: green;
+}
 
+.wrong{
+	color: red;
+	background: pink;
+}
+
+.done{
+	color: gray;
+	text-decoration: line-through;
+}
