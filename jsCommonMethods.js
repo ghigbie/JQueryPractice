@@ -98,5 +98,6 @@ $("button").on("mouseleave", function(){
 	console.log("The mouse ran away");
 	$(this).css("font-weight", "normal");
 });
-
+//click() will only work with existing elements
+//on("click") can be used with future elements that do not exist yet
 
