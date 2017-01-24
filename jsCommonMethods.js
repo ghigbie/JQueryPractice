@@ -67,9 +67,21 @@ $("input").keypress(function(event){
 	}
 	console.log(event);
 });
+//on() - the most used jQuery event method - it is very similar to addEventListener()
+//we have to give it the name of the event
 
 
+$("#honeyBadge1").on("click", function(){
+	alert("You clicked the honey badger!");
+});
 
+$("#honeyBadger2").on("dbclick", function(){
+	alert("You double clicked the honey badger!");
+});
+
+$("#honeyBadger3").on("over", function(){
+	alert("Honey badger don't care. Honey Badger don't give a blank!");
+});
 
 
 
