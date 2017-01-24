@@ -34,3 +34,4 @@ $("img").attr("src", "http://cdn3-www.dogtime.com/assets/uploads/gallery/pembrok
 
 //val() - extracts the value of an input
 $("input").val("Ka-BOOM!!!"); //we could use this to clear the value of an item
+$("select").val(); //will tell you what a user has selected
