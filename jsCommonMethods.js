@@ -62,7 +62,7 @@ $("input").keypress(function(){
 	console.log("you pressed a key");
 });
 $("input").keypress(function(event){
-	if(event === 13){ //which means that the user hit enter
+	if(event.which === 13){ //which means that the user hit enter
 		alert("You hit ENTER!");
 	}
 	console.log(event);
