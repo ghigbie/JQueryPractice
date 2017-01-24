@@ -71,11 +71,11 @@ $("input").keypress(function(event){
 //we have to give it the name of the event
 
 
-$("#honeyBadge1").on("click", function(){
+$("#honeyBadger1").on("click", function(){
 	alert("You clicked the honey badger!");
 });
 
-$("#honeyBadger2").on("dbclick", function(){
+$("#honeyBadger2").on("dblclick", function(){
 	alert("You double clicked the honey badger!");
 });
 
@@ -83,5 +83,8 @@ $("#honeyBadger3").on("over", function(){
 	alert("Honey badger don't care. Honey Badger don't give a blank!");
 });
 
+$("h1").on("click", function(){
+	$(this).css("color", "purple"); //the special jQuery sytax for "this"
+});
 
 
